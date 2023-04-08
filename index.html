@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,63 @@
     <link rel="stylesheet" href="css/styleSheet.css">
     <title>Первая html страница</title>
 </head>
+
 <body>
     <div class="main">
-        <h1>Здарова отец</h1>
+        <div class="main__text">
+            <div class="main__text-box">
+                <h1>Привет дорогой пользователь</h1>
+            </div>
+            <div class="main__button">
+                <div class="main__button-inner">
+                    <div class="button__box-1">
+                        <input type="button" value="Привет" id="buttonMain1" data-active="0">
+                        <ul class="button__hello" id="ul1">
+                            <li>Здарова, отец</li>
+                            <li>Салам</li>
+                            <li>Hello</li>
+                        </ul>
+                    </div>
+                    <div class="button__box-2">
+                        <input type="button" value="Как дела?" id="buttonMain2" data-active="0">
+                        <ol class="button__hello" style="list-style-type: upper-roman;" id="ol1">
+                            <li><i>Плохо</i></li>
+                            <li><p>Удовлетворительно</p></li>
+                            <li><b>Хорошо</b></li>
+                            <li><span>Отлично</span></li>
+                        </ol>
+                    </div>
+                    <div class="button__box-3">
+                        <input type="button" value="Что делаешь?" id="buttonMain3">
+                        <ul class="button__hello ul3" id="ul2">
+                            <li>Сплю</li>
+                            <li>Пишу</li>
+                            <li>Пью</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main__text-background"></div>
+        </div>
+        <div class="main__flex_out">
+            <div class="main__flex">
+                <div class="main__inner_box">
+                    <img src="img/ai-nuclear-energy-background-future-innovation-of-disruptive-technology.jpg" alt=""
+                        srcset="">
+                </div>
+                <div class="main__inner_box">
+                    <img src="img/medium-shot-man-wearing-vr-glasses.jpg" alt="" srcset="">
+                </div>
+            </div>
+            <div>
+                <div class="main__inner_box">
+                    <img src="img/person-with-futuristic-metaverse-avatar-mask.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
     </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
